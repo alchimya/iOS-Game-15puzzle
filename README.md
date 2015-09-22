@@ -4,7 +4,7 @@ A simple SpriteKit implementation of the famous "Fifteen Puzzle" game
 <br/>
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Game-15puzzle/master/screenshots/iOS-Game-15puzzle.gif)
 <br/>
-To solve te implementation of this game we have to focus mainly on these issues:
+To solve the implementation of this game we have to focus mainly on these issues:
 <br/>
 
 1) <b>Generate a random series (NSArray) of 16 numbers from 0 to 15, where 0 is the empty tile.</b>
