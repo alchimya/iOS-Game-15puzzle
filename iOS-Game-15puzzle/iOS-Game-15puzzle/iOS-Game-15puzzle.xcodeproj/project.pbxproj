@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5D43F91BB0075500610330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D43F81BB0075500610330 /* main.m */; };
+		DA5D43FC1BB0075500610330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D43FB1BB0075500610330 /* AppDelegate.m */; };
+		DA5D43FF1BB0075500610330 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D43FE1BB0075500610330 /* GameScene.m */; };
+		DA5D44011BB0075500610330 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44001BB0075500610330 /* GameScene.sks */; };
+		DA5D44041BB0075500610330 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D44031BB0075500610330 /* GameViewController.m */; };
+		DA5D44071BB0075500610330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44051BB0075500610330 /* Main.storyboard */; };
+		DA5D44091BB0075500610330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44081BB0075500610330 /* Assets.xcassets */; };
+		DA5D440C1BB0075500610330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5D440A1BB0075500610330 /* LaunchScreen.storyboard */; };
+		DA5D44171BB0075500610330 /* iOS_Game_15puzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D44161BB0075500610330 /* iOS_Game_15puzzleTests.m */; };
+		DA5D44221BB0075500610330 /* iOS_Game_15puzzleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D44211BB0075500610330 /* iOS_Game_15puzzleUITests.m */; };
+		DA5D44311BB0088200610330 /* TileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D44301BB0088200610330 /* TileNode.m */; settings = {ASSET_TAGS = (); }; };
+		DA5D44431BB00CEA00610330 /* tile.psd in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44331BB00CEA00610330 /* tile.psd */; settings = {ASSET_TAGS = (); }; };
+		DA5D44441BB00CEA00610330 /* tile_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44341BB00CEA00610330 /* tile_1.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44451BB00CEA00610330 /* tile_10.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44351BB00CEA00610330 /* tile_10.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44461BB00CEA00610330 /* tile_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44361BB00CEA00610330 /* tile_11.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44471BB00CEA00610330 /* tile_12.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44371BB00CEA00610330 /* tile_12.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44481BB00CEA00610330 /* tile_13.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44381BB00CEA00610330 /* tile_13.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44491BB00CEA00610330 /* tile_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44391BB00CEA00610330 /* tile_14.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D444A1BB00CEA00610330 /* tile_15.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D443A1BB00CEA00610330 /* tile_15.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D444B1BB00CEA00610330 /* tile_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D443B1BB00CEA00610330 /* tile_2.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D444C1BB00CEA00610330 /* tile_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D443C1BB00CEA00610330 /* tile_3.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D444D1BB00CEA00610330 /* tile_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D443D1BB00CEA00610330 /* tile_4.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D444E1BB00CEA00610330 /* tile_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D443E1BB00CEA00610330 /* tile_5.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D444F1BB00CEA00610330 /* tile_6.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D443F1BB00CEA00610330 /* tile_6.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44501BB00CEA00610330 /* tile_7.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44401BB00CEA00610330 /* tile_7.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44511BB00CEA00610330 /* tile_8.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44411BB00CEA00610330 /* tile_8.png */; settings = {ASSET_TAGS = (); }; };
+		DA5D44521BB00CEA00610330 /* tile_9.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44421BB00CEA00610330 /* tile_9.png */; settings = {ASSET_TAGS = (); }; };
+		DA60E4EF1BB1575D007AEDF2 /* swipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA60E4EE1BB1575D007AEDF2 /* swipe.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DA62DAFA1BB0183C009ED201 /* TileSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = DA62DAF91BB0183C009ED201 /* TileSeries.m */; settings = {ASSET_TAGS = (); }; };
+		DA62DAFC1BB03712009ED201 /* tile_0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA62DAFB1BB03712009ED201 /* tile_0.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA5D44131BB0075500610330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5D43EC1BB0075500610330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5D43F31BB0075500610330;
+			remoteInfo = "iOS-Game-15puzzle";
+		};
+		DA5D441E1BB0075500610330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5D43EC1BB0075500610330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5D43F31BB0075500610330;
+			remoteInfo = "iOS-Game-15puzzle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA5D43F41BB0075500610330 /* iOS-Game-15puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Game-15puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5D43F81BB0075500610330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA5D43FA1BB0075500610330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA5D43FB1BB0075500610330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA5D43FD1BB0075500610330 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DA5D43FE1BB0075500610330 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DA5D44001BB0075500610330 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DA5D44021BB0075500610330 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DA5D44031BB0075500610330 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DA5D44061BB0075500610330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA5D44081BB0075500610330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA5D440B1BB0075500610330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA5D440D1BB0075500610330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5D44121BB0075500610330 /* iOS-Game-15puzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Game-15puzzleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5D44161BB0075500610330 /* iOS_Game_15puzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Game_15puzzleTests.m; sourceTree = "<group>"; };
+		DA5D44181BB0075500610330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5D441D1BB0075500610330 /* iOS-Game-15puzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Game-15puzzleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5D44211BB0075500610330 /* iOS_Game_15puzzleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Game_15puzzleUITests.m; sourceTree = "<group>"; };
+		DA5D44231BB0075500610330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5D442F1BB0088200610330 /* TileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileNode.h; sourceTree = "<group>"; };
+		DA5D44301BB0088200610330 /* TileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileNode.m; sourceTree = "<group>"; };
+		DA5D44331BB00CEA00610330 /* tile.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = tile.psd; sourceTree = "<group>"; };
+		DA5D44341BB00CEA00610330 /* tile_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_1.png; sourceTree = "<group>"; };
+		DA5D44351BB00CEA00610330 /* tile_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_10.png; sourceTree = "<group>"; };
+		DA5D44361BB00CEA00610330 /* tile_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_11.png; sourceTree = "<group>"; };
+		DA5D44371BB00CEA00610330 /* tile_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_12.png; sourceTree = "<group>"; };
+		DA5D44381BB00CEA00610330 /* tile_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_13.png; sourceTree = "<group>"; };
+		DA5D44391BB00CEA00610330 /* tile_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_14.png; sourceTree = "<group>"; };
+		DA5D443A1BB00CEA00610330 /* tile_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_15.png; sourceTree = "<group>"; };
+		DA5D443B1BB00CEA00610330 /* tile_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_2.png; sourceTree = "<group>"; };
+		DA5D443C1BB00CEA00610330 /* tile_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_3.png; sourceTree = "<group>"; };
+		DA5D443D1BB00CEA00610330 /* tile_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_4.png; sourceTree = "<group>"; };
+		DA5D443E1BB00CEA00610330 /* tile_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_5.png; sourceTree = "<group>"; };
+		DA5D443F1BB00CEA00610330 /* tile_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_6.png; sourceTree = "<group>"; };
+		DA5D44401BB00CEA00610330 /* tile_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_7.png; sourceTree = "<group>"; };
+		DA5D44411BB00CEA00610330 /* tile_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_8.png; sourceTree = "<group>"; };
+		DA5D44421BB00CEA00610330 /* tile_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_9.png; sourceTree = "<group>"; };
+		DA60E4EE1BB1575D007AEDF2 /* swipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swipe.mp3; sourceTree = "<group>"; };
+		DA62DAF81BB0183C009ED201 /* TileSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileSeries.h; sourceTree = "<group>"; };
+		DA62DAF91BB0183C009ED201 /* TileSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileSeries.m; sourceTree = "<group>"; };
+		DA62DAFB1BB03712009ED201 /* tile_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_0.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA5D43F11BB0075500610330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D440F1BB0075500610330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D441A1BB0075500610330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA5D43EB1BB0075500610330 = {
+			isa = PBXGroup;
+			children = (
+				DA60E4EE1BB1575D007AEDF2 /* swipe.mp3 */,
+				DA5D43F61BB0075500610330 /* iOS-Game-15puzzle */,
+				DA5D44151BB0075500610330 /* iOS-Game-15puzzleTests */,
+				DA5D44201BB0075500610330 /* iOS-Game-15puzzleUITests */,
+				DA5D43F51BB0075500610330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5D43F51BB0075500610330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D43F41BB0075500610330 /* iOS-Game-15puzzle.app */,
+				DA5D44121BB0075500610330 /* iOS-Game-15puzzleTests.xctest */,
+				DA5D441D1BB0075500610330 /* iOS-Game-15puzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5D43F61BB0075500610330 /* iOS-Game-15puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D44321BB00CEA00610330 /* Images */,
+				DA5D43FA1BB0075500610330 /* AppDelegate.h */,
+				DA5D43FB1BB0075500610330 /* AppDelegate.m */,
+				DA5D43FD1BB0075500610330 /* GameScene.h */,
+				DA5D43FE1BB0075500610330 /* GameScene.m */,
+				DA5D44001BB0075500610330 /* GameScene.sks */,
+				DA5D44021BB0075500610330 /* GameViewController.h */,
+				DA5D44031BB0075500610330 /* GameViewController.m */,
+				DA5D442F1BB0088200610330 /* TileNode.h */,
+				DA5D44301BB0088200610330 /* TileNode.m */,
+				DA62DAF81BB0183C009ED201 /* TileSeries.h */,
+				DA62DAF91BB0183C009ED201 /* TileSeries.m */,
+				DA5D44051BB0075500610330 /* Main.storyboard */,
+				DA5D44081BB0075500610330 /* Assets.xcassets */,
+				DA5D440A1BB0075500610330 /* LaunchScreen.storyboard */,
+				DA5D440D1BB0075500610330 /* Info.plist */,
+				DA5D43F71BB0075500610330 /* Supporting Files */,
+			);
+			path = "iOS-Game-15puzzle";
+			sourceTree = "<group>";
+		};
+		DA5D43F71BB0075500610330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D43F81BB0075500610330 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA5D44151BB0075500610330 /* iOS-Game-15puzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D44161BB0075500610330 /* iOS_Game_15puzzleTests.m */,
+				DA5D44181BB0075500610330 /* Info.plist */,
+			);
+			path = "iOS-Game-15puzzleTests";
+			sourceTree = "<group>";
+		};
+		DA5D44201BB0075500610330 /* iOS-Game-15puzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D44211BB0075500610330 /* iOS_Game_15puzzleUITests.m */,
+				DA5D44231BB0075500610330 /* Info.plist */,
+			);
+			path = "iOS-Game-15puzzleUITests";
+			sourceTree = "<group>";
+		};
+		DA5D44321BB00CEA00610330 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA62DAFB1BB03712009ED201 /* tile_0.png */,
+				DA5D44331BB00CEA00610330 /* tile.psd */,
+				DA5D44341BB00CEA00610330 /* tile_1.png */,
+				DA5D44351BB00CEA00610330 /* tile_10.png */,
+				DA5D44361BB00CEA00610330 /* tile_11.png */,
+				DA5D44371BB00CEA00610330 /* tile_12.png */,
+				DA5D44381BB00CEA00610330 /* tile_13.png */,
+				DA5D44391BB00CEA00610330 /* tile_14.png */,
+				DA5D443A1BB00CEA00610330 /* tile_15.png */,
+				DA5D443B1BB00CEA00610330 /* tile_2.png */,
+				DA5D443C1BB00CEA00610330 /* tile_3.png */,
+				DA5D443D1BB00CEA00610330 /* tile_4.png */,
+				DA5D443E1BB00CEA00610330 /* tile_5.png */,
+				DA5D443F1BB00CEA00610330 /* tile_6.png */,
+				DA5D44401BB00CEA00610330 /* tile_7.png */,
+				DA5D44411BB00CEA00610330 /* tile_8.png */,
+				DA5D44421BB00CEA00610330 /* tile_9.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA5D43F31BB0075500610330 /* iOS-Game-15puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5D44261BB0075500610330 /* Build configuration list for PBXNativeTarget "iOS-Game-15puzzle" */;
+			buildPhases = (
+				DA5D43F01BB0075500610330 /* Sources */,
+				DA5D43F11BB0075500610330 /* Frameworks */,
+				DA5D43F21BB0075500610330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Game-15puzzle";
+			productName = "iOS-Game-15puzzle";
+			productReference = DA5D43F41BB0075500610330 /* iOS-Game-15puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA5D44111BB0075500610330 /* iOS-Game-15puzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5D44291BB0075500610330 /* Build configuration list for PBXNativeTarget "iOS-Game-15puzzleTests" */;
+			buildPhases = (
+				DA5D440E1BB0075500610330 /* Sources */,
+				DA5D440F1BB0075500610330 /* Frameworks */,
+				DA5D44101BB0075500610330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA5D44141BB0075500610330 /* PBXTargetDependency */,
+			);
+			name = "iOS-Game-15puzzleTests";
+			productName = "iOS-Game-15puzzleTests";
+			productReference = DA5D44121BB0075500610330 /* iOS-Game-15puzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA5D441C1BB0075500610330 /* iOS-Game-15puzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5D442C1BB0075500610330 /* Build configuration list for PBXNativeTarget "iOS-Game-15puzzleUITests" */;
+			buildPhases = (
+				DA5D44191BB0075500610330 /* Sources */,
+				DA5D441A1BB0075500610330 /* Frameworks */,
+				DA5D441B1BB0075500610330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA5D441F1BB0075500610330 /* PBXTargetDependency */,
+			);
+			name = "iOS-Game-15puzzleUITests";
+			productName = "iOS-Game-15puzzleUITests";
+			productReference = DA5D441D1BB0075500610330 /* iOS-Game-15puzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5D43EC1BB0075500610330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DomenicoVacchiano;
+				TargetAttributes = {
+					DA5D43F31BB0075500610330 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DA5D44111BB0075500610330 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DA5D43F31BB0075500610330;
+					};
+					DA5D441C1BB0075500610330 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DA5D43F31BB0075500610330;
+					};
+				};
+			};
+			buildConfigurationList = DA5D43EF1BB0075500610330 /* Build configuration list for PBXProject "iOS-Game-15puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA5D43EB1BB0075500610330;
+			productRefGroup = DA5D43F51BB0075500610330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA5D43F31BB0075500610330 /* iOS-Game-15puzzle */,
+				DA5D44111BB0075500610330 /* iOS-Game-15puzzleTests */,
+				DA5D441C1BB0075500610330 /* iOS-Game-15puzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA5D43F21BB0075500610330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5D44431BB00CEA00610330 /* tile.psd in Resources */,
+				DA5D44501BB00CEA00610330 /* tile_7.png in Resources */,
+				DA62DAFC1BB03712009ED201 /* tile_0.png in Resources */,
+				DA5D444A1BB00CEA00610330 /* tile_15.png in Resources */,
+				DA5D44521BB00CEA00610330 /* tile_9.png in Resources */,
+				DA5D44441BB00CEA00610330 /* tile_1.png in Resources */,
+				DA5D44491BB00CEA00610330 /* tile_14.png in Resources */,
+				DA5D44011BB0075500610330 /* GameScene.sks in Resources */,
+				DA5D444F1BB00CEA00610330 /* tile_6.png in Resources */,
+				DA5D44481BB00CEA00610330 /* tile_13.png in Resources */,
+				DA5D440C1BB0075500610330 /* LaunchScreen.storyboard in Resources */,
+				DA5D44471BB00CEA00610330 /* tile_12.png in Resources */,
+				DA5D44091BB0075500610330 /* Assets.xcassets in Resources */,
+				DA5D44461BB00CEA00610330 /* tile_11.png in Resources */,
+				DA5D444B1BB00CEA00610330 /* tile_2.png in Resources */,
+				DA5D44071BB0075500610330 /* Main.storyboard in Resources */,
+				DA5D44451BB00CEA00610330 /* tile_10.png in Resources */,
+				DA60E4EF1BB1575D007AEDF2 /* swipe.mp3 in Resources */,
+				DA5D444D1BB00CEA00610330 /* tile_4.png in Resources */,
+				DA5D44511BB00CEA00610330 /* tile_8.png in Resources */,
+				DA5D444C1BB00CEA00610330 /* tile_3.png in Resources */,
+				DA5D444E1BB00CEA00610330 /* tile_5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D44101BB0075500610330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D441B1BB0075500610330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA5D43F01BB0075500610330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62DAFA1BB0183C009ED201 /* TileSeries.m in Sources */,
+				DA5D44041BB0075500610330 /* GameViewController.m in Sources */,
+				DA5D44311BB0088200610330 /* TileNode.m in Sources */,
+				DA5D43FC1BB0075500610330 /* AppDelegate.m in Sources */,
+				DA5D43FF1BB0075500610330 /* GameScene.m in Sources */,
+				DA5D43F91BB0075500610330 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D440E1BB0075500610330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5D44171BB0075500610330 /* iOS_Game_15puzzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D44191BB0075500610330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5D44221BB0075500610330 /* iOS_Game_15puzzleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA5D44141BB0075500610330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA5D43F31BB0075500610330 /* iOS-Game-15puzzle */;
+			targetProxy = DA5D44131BB0075500610330 /* PBXContainerItemProxy */;
+		};
+		DA5D441F1BB0075500610330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA5D43F31BB0075500610330 /* iOS-Game-15puzzle */;
+			targetProxy = DA5D441E1BB0075500610330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA5D44051BB0075500610330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5D44061BB0075500610330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA5D440A1BB0075500610330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5D440B1BB0075500610330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA5D44241BB0075500610330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA5D44251BB0075500610330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA5D44271BB0075500610330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Game-15puzzle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-Game-15puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA5D44281BB0075500610330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Game-15puzzle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-Game-15puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA5D442A1BB0075500610330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "iOS-Game-15puzzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-Game-15puzzleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Game-15puzzle.app/iOS-Game-15puzzle";
+			};
+			name = Debug;
+		};
+		DA5D442B1BB0075500610330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-Game-15puzzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-Game-15puzzleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Game-15puzzle.app/iOS-Game-15puzzle";
+			};
+			name = Release;
+		};
+		DA5D442D1BB0075500610330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "iOS-Game-15puzzleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-Game-15puzzleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-Game-15puzzle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA5D442E1BB0075500610330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-Game-15puzzleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-Game-15puzzleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-Game-15puzzle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5D43EF1BB0075500610330 /* Build configuration list for PBXProject "iOS-Game-15puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5D44241BB0075500610330 /* Debug */,
+				DA5D44251BB0075500610330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5D44261BB0075500610330 /* Build configuration list for PBXNativeTarget "iOS-Game-15puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5D44271BB0075500610330 /* Debug */,
+				DA5D44281BB0075500610330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5D44291BB0075500610330 /* Build configuration list for PBXNativeTarget "iOS-Game-15puzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5D442A1BB0075500610330 /* Debug */,
+				DA5D442B1BB0075500610330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5D442C1BB0075500610330 /* Build configuration list for PBXNativeTarget "iOS-Game-15puzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5D442D1BB0075500610330 /* Debug */,
+				DA5D442E1BB0075500610330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5D43EC1BB0075500610330 /* Project object */;
+}
