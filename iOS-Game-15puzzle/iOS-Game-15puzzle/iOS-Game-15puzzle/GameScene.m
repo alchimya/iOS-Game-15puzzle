@@ -7,12 +7,13 @@
 //
 
 #import "GameScene.h"
-#import "TileNode.h"
 #import "TileSeries.h"
+
 @interface GameScene ()
 -(void)addTiles;
 -(void)invertPositionNode:(SKNode*)node1 withNode:(SKNode*)node2;
 -(void)handleSwipe:(UISwipeGestureRecognizer *)sender;
+-(SKSpriteNode*)getTileNodeWithNumber:(int)number andPosition:(CGPoint)position andSize:(CGSize)size;
 -(NSArray*)getTrainTilesFromNode:(SKSpriteNode*)node onDirection:(UISwipeGestureRecognizerDirection) direction;
 @property (nonatomic,strong)NSArray*tilesTrain;
 @property (nonatomic,strong)SKAction*swipeActionSound;
@@ -62,16 +63,14 @@
 
         //makes a tile position
         CGPoint tilePosition=CGPointMake(currentX, currentY);
-        //creates an instance of TileNode object
-        TileNode*tileNode=[[TileNode alloc]initWithNumber:
-                           [
-                            [tileSeries objectAtIndex:i] intValue]
-                            andPosition:tilePosition
-                            andSize:CGSizeMake(tileSide, tileSide)
-                           ];
         
         //add the tileNode on the scene
-        [self addChild:tileNode];
+        [self addChild:
+                [self getTileNodeWithNumber:[[tileSeries objectAtIndex:i] intValue]
+                                andPosition:tilePosition
+                                andSize:CGSizeMake(tileSide, tileSide)
+                 ]
+        ];
         
         if (currentCol==4) {
             //if current column is equal to 4 we have to reset currentCol to 1 and the move to next row
@@ -90,7 +89,18 @@
     }
 
 }
+-(SKSpriteNode*)getTileNodeWithNumber:(int)number andPosition:(CGPoint)position andSize:(CGSize)size{
+    //creates a sprite node with an image formated as tile_number
+    //and with a node name as number
+    //NOTE: the number 0 corresponds to the empry tile
+    NSString*tileName=[NSString stringWithFormat:@"tile_%d",number];
+    SKSpriteNode*tile=[SKSpriteNode spriteNodeWithImageNamed:tileName];
+    tile.position=position;
+    tile.size=size;
+    tile.name=[NSString stringWithFormat:@"%d",number];
+    return tile;
 
+}
 
 -(void)update:(NSTimeInterval)currentTime{
  
@@ -190,8 +200,7 @@
         }
         if (alongsideNode) {
             [alongsideNodes addObject:alongsideNode];
-            TileNode*tileNode=(TileNode*)alongsideNode.parent;
-            if(tileNode && tileNode.tileNumber==0){
+            if([alongsideNode.name isEqualToString:@"0"]){
                 found=YES;
                 break;
             }

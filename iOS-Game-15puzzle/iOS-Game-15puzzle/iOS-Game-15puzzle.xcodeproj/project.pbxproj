@@ -17,7 +17,6 @@
 		DA5D440C1BB0075500610330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5D440A1BB0075500610330 /* LaunchScreen.storyboard */; };
 		DA5D44171BB0075500610330 /* iOS_Game_15puzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D44161BB0075500610330 /* iOS_Game_15puzzleTests.m */; };
 		DA5D44221BB0075500610330 /* iOS_Game_15puzzleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D44211BB0075500610330 /* iOS_Game_15puzzleUITests.m */; };
-		DA5D44311BB0088200610330 /* TileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D44301BB0088200610330 /* TileNode.m */; settings = {ASSET_TAGS = (); }; };
 		DA5D44431BB00CEA00610330 /* tile.psd in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44331BB00CEA00610330 /* tile.psd */; settings = {ASSET_TAGS = (); }; };
 		DA5D44441BB00CEA00610330 /* tile_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44341BB00CEA00610330 /* tile_1.png */; settings = {ASSET_TAGS = (); }; };
 		DA5D44451BB00CEA00610330 /* tile_10.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44351BB00CEA00610330 /* tile_10.png */; settings = {ASSET_TAGS = (); }; };
@@ -76,8 +75,6 @@
 		DA5D441D1BB0075500610330 /* iOS-Game-15puzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Game-15puzzleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5D44211BB0075500610330 /* iOS_Game_15puzzleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Game_15puzzleUITests.m; sourceTree = "<group>"; };
 		DA5D44231BB0075500610330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA5D442F1BB0088200610330 /* TileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileNode.h; sourceTree = "<group>"; };
-		DA5D44301BB0088200610330 /* TileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileNode.m; sourceTree = "<group>"; };
 		DA5D44331BB00CEA00610330 /* tile.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = tile.psd; sourceTree = "<group>"; };
 		DA5D44341BB00CEA00610330 /* tile_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_1.png; sourceTree = "<group>"; };
 		DA5D44351BB00CEA00610330 /* tile_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_10.png; sourceTree = "<group>"; };
@@ -157,8 +154,6 @@
 				DA5D44001BB0075500610330 /* GameScene.sks */,
 				DA5D44021BB0075500610330 /* GameViewController.h */,
 				DA5D44031BB0075500610330 /* GameViewController.m */,
-				DA5D442F1BB0088200610330 /* TileNode.h */,
-				DA5D44301BB0088200610330 /* TileNode.m */,
 				DA62DAF81BB0183C009ED201 /* TileSeries.h */,
 				DA62DAF91BB0183C009ED201 /* TileSeries.m */,
 				DA5D44051BB0075500610330 /* Main.storyboard */,
@@ -371,7 +366,6 @@
 			files = (
 				DA62DAFA1BB0183C009ED201 /* TileSeries.m in Sources */,
 				DA5D44041BB0075500610330 /* GameViewController.m in Sources */,
-				DA5D44311BB0088200610330 /* TileNode.m in Sources */,
 				DA5D43FC1BB0075500610330 /* AppDelegate.m in Sources */,
 				DA5D43FF1BB0075500610330 /* GameScene.m in Sources */,
 				DA5D43F91BB0075500610330 /* main.m in Sources */,
