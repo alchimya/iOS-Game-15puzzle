@@ -169,7 +169,8 @@
     NSMutableArray*alongsideNodes=[[NSMutableArray alloc]initWithCapacity:10];
     
     [alongsideNodes addObject:node];
-    for (int i=0; i<4; i++) {
+    //at most we will have other three tiles from starting node
+    for (int i=0; i<3; i++) {
         SKNode*alongsideNode;
         switch (direction) {
             case UISwipeGestureRecognizerDirectionLeft:
