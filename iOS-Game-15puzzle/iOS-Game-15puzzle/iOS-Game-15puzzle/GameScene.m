@@ -7,7 +7,7 @@
 //
 
 #import "GameScene.h"
-#import "TileSeries.h"
+#import "RandomNumberSeries.h"
 
 @interface GameScene ()
 -(void)addTiles;
@@ -36,9 +36,9 @@
     
     //NOTE: we have to imagine the game as a grid of 4 cols and 4 rows (matrix 4x4)
     
-    //creates an instance of the TileSeries object that defines a random series of 16 numbers from 0 to 15
+    //creates an instance of the RandomNumberSeries object that defines a random series of 16 numbers from 0 to 15
     //0 is the empty tile
-    TileSeries*tileSeries=[[TileSeries alloc]init];
+    RandomNumberSeries*tileSeries=[[RandomNumberSeries alloc] initWithSeriesMax:16];
     
     //we assume a margin on the right and left side of the screen, equal to the 10% of the total width
     int marginX=self.size.width*0.1;

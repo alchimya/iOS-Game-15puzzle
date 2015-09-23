@@ -34,8 +34,8 @@
 		DA5D44511BB00CEA00610330 /* tile_8.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44411BB00CEA00610330 /* tile_8.png */; settings = {ASSET_TAGS = (); }; };
 		DA5D44521BB00CEA00610330 /* tile_9.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D44421BB00CEA00610330 /* tile_9.png */; settings = {ASSET_TAGS = (); }; };
 		DA60E4EF1BB1575D007AEDF2 /* swipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA60E4EE1BB1575D007AEDF2 /* swipe.mp3 */; settings = {ASSET_TAGS = (); }; };
-		DA62DAFA1BB0183C009ED201 /* TileSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = DA62DAF91BB0183C009ED201 /* TileSeries.m */; settings = {ASSET_TAGS = (); }; };
 		DA62DAFC1BB03712009ED201 /* tile_0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA62DAFB1BB03712009ED201 /* tile_0.png */; settings = {ASSET_TAGS = (); }; };
+		DA648F061BB3090F00117054 /* RandomNumberSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = DA648F051BB3090F00117054 /* RandomNumberSeries.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,9 +92,9 @@
 		DA5D44411BB00CEA00610330 /* tile_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_8.png; sourceTree = "<group>"; };
 		DA5D44421BB00CEA00610330 /* tile_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_9.png; sourceTree = "<group>"; };
 		DA60E4EE1BB1575D007AEDF2 /* swipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swipe.mp3; sourceTree = "<group>"; };
-		DA62DAF81BB0183C009ED201 /* TileSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileSeries.h; sourceTree = "<group>"; };
-		DA62DAF91BB0183C009ED201 /* TileSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileSeries.m; sourceTree = "<group>"; };
 		DA62DAFB1BB03712009ED201 /* tile_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_0.png; sourceTree = "<group>"; };
+		DA648F041BB3090F00117054 /* RandomNumberSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomNumberSeries.h; sourceTree = "<group>"; };
+		DA648F051BB3090F00117054 /* RandomNumberSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomNumberSeries.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +154,8 @@
 				DA5D44001BB0075500610330 /* GameScene.sks */,
 				DA5D44021BB0075500610330 /* GameViewController.h */,
 				DA5D44031BB0075500610330 /* GameViewController.m */,
-				DA62DAF81BB0183C009ED201 /* TileSeries.h */,
-				DA62DAF91BB0183C009ED201 /* TileSeries.m */,
+				DA648F041BB3090F00117054 /* RandomNumberSeries.h */,
+				DA648F051BB3090F00117054 /* RandomNumberSeries.m */,
 				DA5D44051BB0075500610330 /* Main.storyboard */,
 				DA5D44081BB0075500610330 /* Assets.xcassets */,
 				DA5D440A1BB0075500610330 /* LaunchScreen.storyboard */,
@@ -364,10 +364,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA62DAFA1BB0183C009ED201 /* TileSeries.m in Sources */,
 				DA5D44041BB0075500610330 /* GameViewController.m in Sources */,
 				DA5D43FC1BB0075500610330 /* AppDelegate.m in Sources */,
 				DA5D43FF1BB0075500610330 /* GameScene.m in Sources */,
+				DA648F061BB3090F00117054 /* RandomNumberSeries.m in Sources */,
 				DA5D43F91BB0075500610330 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
