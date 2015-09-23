@@ -9,8 +9,8 @@ To solve the implementation of this game we have to focus mainly on these issues
 
 1) <b>Generate a random series (NSArray) of 16 numbers from 0 to 15, where 0 is the empty tile.</b>
 <br/>
-You can find this implementation in the TileSeries class (an NSArray subclass) where in the init method,
-will be added a 16 random numbers into an array.
+You can find this implementation in the RandomNumberSeries class (an NSArray subclass) where in the initWithSeriesMax method will be added (in our case) 16 random numbers into an array.
+You can reuse this class for a different pourpose.
 
 2) <b>Retrieve the “train” of tiles when the user is swiping his finger towards the empty tile.</b>
 <br/>
